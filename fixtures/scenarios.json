@@ -1,0 +1,58 @@
+[
+  {
+    "id": "standard",
+    "entry": "package.xml",
+    "version": "source-v1",
+    "resources": [
+      "package.xml",
+      "story.xml",
+      "photo.bin",
+      "photo2.bin",
+      "withdrawn.xml"
+    ],
+    "behavior": "standard",
+    "description": "编辑部授权供稿：standard"
+  },
+  {
+    "id": "missing-alternative",
+    "entry": "package.xml",
+    "version": "source-v1",
+    "resources": [
+      "package.xml",
+      "story.xml",
+      "photo.bin",
+      "photo2.bin",
+      "withdrawn.xml"
+    ],
+    "behavior": "missing-alternative",
+    "description": "编辑部授权供稿：missing-alternative"
+  },
+  {
+    "id": "withdrawn",
+    "entry": "withdrawn.xml",
+    "version": "source-v1",
+    "resources": [
+      "package.xml",
+      "story.xml",
+      "photo.bin",
+      "photo2.bin",
+      "withdrawn.xml"
+    ],
+    "behavior": "withdrawn",
+    "description": "编辑部授权供稿：withdrawn"
+  },
+  {
+    "id": "cycle",
+    "entry": "package.xml",
+    "version": "source-v1",
+    "resources": [
+      "package.xml",
+      "story.xml",
+      "photo.bin",
+      "photo2.bin",
+      "withdrawn.xml"
+    ],
+    "behavior": "cycle",
+    "description": "编辑部授权供稿：cycle"
+  }
+]

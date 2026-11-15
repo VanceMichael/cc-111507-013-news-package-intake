@@ -8,7 +8,8 @@
       "story.xml",
       "photo.bin",
       "photo2.bin",
-      "withdrawn.xml"
+      "withdrawn.xml",
+      "cyclic-package.xml"
     ],
     "behavior": "standard",
     "description": "编辑部授权供稿：standard"
@@ -22,7 +23,8 @@
       "story.xml",
       "photo.bin",
       "photo2.bin",
-      "withdrawn.xml"
+      "withdrawn.xml",
+      "cyclic-package.xml"
     ],
     "behavior": "missing-alternative",
     "description": "编辑部授权供稿：missing-alternative"
@@ -36,21 +38,23 @@
       "story.xml",
       "photo.bin",
       "photo2.bin",
-      "withdrawn.xml"
+      "withdrawn.xml",
+      "cyclic-package.xml"
     ],
     "behavior": "withdrawn",
     "description": "编辑部授权供稿：withdrawn"
   },
   {
     "id": "cycle",
-    "entry": "package.xml",
+    "entry": "cyclic-package.xml",
     "version": "source-v1",
     "resources": [
       "package.xml",
       "story.xml",
       "photo.bin",
       "photo2.bin",
-      "withdrawn.xml"
+      "withdrawn.xml",
+      "cyclic-package.xml"
     ],
     "behavior": "cycle",
     "description": "编辑部授权供稿：cycle"

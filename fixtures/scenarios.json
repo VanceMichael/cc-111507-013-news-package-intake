@@ -58,5 +58,17 @@
     ],
     "behavior": "cycle",
     "description": "编辑部授权供稿：cycle"
+  },
+  {
+    "id": "outside-contract",
+    "entry": "outside-contract.xml",
+    "version": "source-v1",
+    "resources": [
+      "outside-contract.xml",
+      "story.xml",
+      "photo.bin"
+    ],
+    "behavior": "standard",
+    "description": "编辑部授权供稿：outside-contract"
   }
 ]
